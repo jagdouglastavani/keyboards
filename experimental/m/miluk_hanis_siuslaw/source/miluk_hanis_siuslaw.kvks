@@ -36,7 +36,7 @@
       <key vkey="K_BKQUOTE">~</key>
     </layer>
     <layer shift="">
-      <key vkey="K_QUOTE">ߴ</key>
+      <key vkey="K_QUOTE">'</key>
       <key vkey="K_COMMA">,</key>
       <key vkey="K_HYPHEN">-</key>
       <key vkey="K_PERIOD">.</key>
