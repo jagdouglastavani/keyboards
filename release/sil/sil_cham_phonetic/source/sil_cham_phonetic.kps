@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>17.0.293.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>18.0.235.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>readme.htm</ReadMeFile>
+    <LicenseFile>..\LICENSE.md</LicenseFile>
+    <WelcomeFile>welcome\welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
-    <LicenseFile>..\LICENSE.md</LicenseFile>
   </Options>
   <StartMenu>
     <Folder></Folder>
@@ -18,10 +19,10 @@
   </StartMenu>
   <Info>
     <Name URL="">Cham Phonetic (SIL)</Name>
-    <Copyright URL="">Copyright © SIL International</Copyright>
+    <Copyright URL="">Copyright © SIL Global</Copyright>
     <Author URL="">Lorna Evans</Author>
     <Version URL=""></Version>
-    <Description>This keyboard is for the Eastern Cham language using the Cham script. 
+    <Description URL="">This keyboard is for the Eastern Cham language using the Cham script. 
 It is loosely based on a phonetic layout. Feedback is most welcome.</Description>
   </Info>
   <Files>
@@ -64,12 +65,6 @@ It is loosely based on a phonetic layout. Feedback is most welcome.</Description
     <File>
       <Name>welcome\LayoutU_S.png</Name>
       <Description>File LayoutU_S.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>welcome\LayoutU_SRA.png</Name>
-      <Description>File LayoutU_SRA.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
@@ -148,15 +143,18 @@ It is loosely based on a phonetic layout. Feedback is most welcome.</Description
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Cham Phonetic (SIL)</Name>
       <ID>sil_cham_phonetic</ID>
-      <Version>1.0</Version>
       <OSKFont>..\..\..\shared\fonts\noto\Cham\NotoSansCham-Regular.ttf</OSKFont>
-      <DisplayFont>..\..\..\shared\fonts\noto\Cham\NotoSansCham-Bold.ttf</DisplayFont>
-      <WebDisplayFonts><Font Filename="NotoSansCham-Regular.ttf"/></WebDisplayFonts>
+      <DisplayFont>..\..\..\shared\fonts\noto\Cham\NotoSansCham-Regular.ttf</DisplayFont>
       <Languages>
         <Language ID="cjm">Eastern Cham</Language>
       </Languages>
+      <WebOSKFonts>
+        <Font Filename="..\..\..\shared\fonts\noto\Cham\NotoSansCham-Regular.ttf"/>
+      </WebOSKFonts>
+      <WebDisplayFonts>
+        <Font Filename="..\..\..\shared\fonts\noto\Cham\NotoSansCham-Regular.ttf"/>
+      </WebDisplayFonts>
     </Keyboard>
   </Keyboards>
   <Strings/>

@@ -1,6 +1,19 @@
 Khmer (SIL) Keyboard Change History
 =======================
 
+2.1.2 (24 Mar 2025)
+----------------
+* replace Mondulkiri fonts with Busra
+
+2.1.1 (30 Oct 2024)
+------------------
+* Changed display font for .kvks
+
+2.1 (18 Sep 2024)
+------------------
+* Added touch layout
+* Added Khmer Busra font
+
 2.0 (22 Apr 2024)
 ------------------
 * Replaced J key with Khmer Sign Avakrahasanya "ៜ" (U+17DC).
