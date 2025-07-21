@@ -8,7 +8,7 @@
   <encoding name="unicode" fontname="Arial" fontsize="-12">
     <layer shift="S">
       <key vkey="K_1">!</key>
-      <key vkey="K_QUOTE">ߴߴ</key>
+      <key vkey="K_QUOTE">"</key>
       <key vkey="K_3">#</key>
       <key vkey="K_4">$</key>
       <key vkey="K_5">%</key>
